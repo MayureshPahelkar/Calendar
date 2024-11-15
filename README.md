@@ -1,0 +1,1 @@
+This calendar built with HTML, CSS, and JavaScript highlights today's date and displays the current month with navigation buttons to switch between months. It includes a clean, modern design with Sundays in red and the current date in a distinct color.
