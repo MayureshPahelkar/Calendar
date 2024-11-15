@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calendar-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #69e8e0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #69e8e0;
+}
+
+#month-year {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calendar {
+    overflow-x: auto;
+}
+
+#calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14.28%;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.today {
+    background-color: #69e8e0;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+td.empty {
+    background-color: #f9f9f9;
+}
+
+td.sunday {
+    color: red;
+    font-weight: bold;
+}
